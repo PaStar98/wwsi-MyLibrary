@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+      <UserSecretsId>173a284f-4b62-41c9-9910-8cf9bd4b6ac6</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="9.1.0" />
+        <PackageReference Include="Bogus" Version="35.6.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="8.1.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="8.1.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyLibrary.ServiceDefaults\MyLibrary.ServiceDefaults.csproj" />
+    </ItemGroup>
+
+</Project>
